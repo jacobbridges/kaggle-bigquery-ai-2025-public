@@ -1,0 +1,69 @@
+{
+  "ok": true,
+  "messages": [
+    {
+      "type": "message",
+      "user": "U1187FE54",
+      "text": "@here - to close the loop on the priority discussion from standup, tasks in order of priority are: \n1. Setup the Lambda function for app backend\n2. Setup the DynamoDB table for app state\n3. @mary to meet with Shawn from the design team on application design.",
+      "ts": "1734242403.313362",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "john",
+        "real_name": "John Crickett",
+        "email": "john@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "U3DFE86E9",
+      "text": "reminder that my christmas pto starts tomorrow. I will try to get that design out by EOD!",
+      "ts": "1734242406.626725",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "mary",
+        "real_name": "Mary Restivo",
+        "email": "mary@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "U1187FE54",
+      "text": "thank you @mary, please document all decisions before you go so we can pick up where you left off",
+      "ts": "1734242409.940087",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "john",
+        "real_name": "John Crickett",
+        "email": "john@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "U3DFE86E9",
+      "text": "can do",
+      "ts": "1734242413.253450",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "mary",
+        "real_name": "Mary Restivo",
+        "email": "mary@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "U34C51FA7",
+      "text": "I already setup the lambda function last night, will start on the dynamodb table today.",
+      "ts": "1734242416.566812",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "dawn",
+        "real_name": "Dawn Too",
+        "email": "dawn@example.com"
+      }
+    }
+  ],
+  "has_more": false,
+  "pin_count": 0,
+  "channel_actions_ts": null,
+  "channel_actions_count": 0
+}

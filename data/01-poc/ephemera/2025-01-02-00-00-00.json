@@ -1,0 +1,105 @@
+{
+  "ok": true,
+  "messages": [
+    {
+      "type": "message",
+      "user": "U02ABC123",
+      "text": "Hey Jordan, been thinking about the todo app. What if we also build mobile apps? iOS and Android. People use their phones for everything now.",
+      "ts": "1735689600.123456",
+      "team": "T01234567",
+      "user_profile": {
+        "real_name": "Maya Chen",
+        "display_name": "maya",
+        "email": "maya@company.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "U02ABC124",
+      "text": "Maya, we haven't even finished the web version yet. Adding mobile means we'd need to learn React Native or go native, which is a huge time investment.",
+      "ts": "1735689720.234567",
+      "team": "T01234567",
+      "user_profile": {
+        "real_name": "Jordan Rivera",
+        "display_name": "jordan",
+        "email": "jordan@company.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "U02ABC123",
+      "text": "But think about it - mobile-first approach! And while we're at it, what about adding team collaboration? Like sharing lists with others?",
+      "ts": "1735689800.345678",
+      "team": "T01234567",
+      "user_profile": {
+        "real_name": "Maya Chen",
+        "display_name": "maya",
+        "email": "maya@company.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "U02ABC124",
+      "text": "Whoa, that's a completely different product now. Our spec says \"personal task list\" and \"individual task lists private and separate.\" Team collaboration changes everything - permissions, real-time sync, conflict resolution...",
+      "ts": "1735689920.456789",
+      "team": "T01234567",
+      "user_profile": {
+        "real_name": "Jordan Rivera",
+        "display_name": "jordan",
+        "email": "jordan@company.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "U02ABC123",
+      "text": "OK fair point. But mobile though - can't we just make the web version responsive and call it a day?",
+      "ts": "1735690080.567890",
+      "team": "T01234567",
+      "user_profile": {
+        "real_name": "Maya Chen",
+        "display_name": "maya",
+        "email": "maya@company.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "U02ABC124",
+      "text": "That's more reasonable. PWA with responsive design could work. But let's nail the core functionality first - add/edit/delete/complete tasks. Then we can optimize for mobile.",
+      "ts": "1735690200.678901",
+      "team": "T01234567",
+      "user_profile": {
+        "real_name": "Jordan Rivera",
+        "display_name": "jordan",
+        "email": "jordan@company.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "U02ABC123",
+      "text": "Deal. But I still think we should consider due dates and priorities eventually. People need to know what's urgent.",
+      "ts": "1735690320.789012",
+      "team": "T01234567",
+      "user_profile": {
+        "real_name": "Maya Chen",
+        "display_name": "maya",
+        "email": "maya@company.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "U02ABC124",
+      "text": "Agreed on due dates - that's a natural v1.1 feature. Priorities might be overkill for a \"simple\" todo app though. Let's see what users actually ask for.",
+      "ts": "1735690440.890123",
+      "team": "T01234567",
+      "user_profile": {
+        "real_name": "Jordan Rivera",
+        "display_name": "jordan",
+        "email": "jordan@company.com"
+      }
+    }
+  ],
+  "has_more": false,
+  "pin_count": 0,
+  "channel_actions_ts": null,
+  "channel_actions_count": 0
+}
