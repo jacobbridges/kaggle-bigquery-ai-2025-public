@@ -1,0 +1,141 @@
+{
+  "ok": true,
+  "messages": [
+    {
+      "type": "message",
+      "user": "UB9127BE5",
+      "text": "Good morning team! Did everyone have a good weekend?",
+      "ts": "1735970403.313362",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "john",
+        "real_name": "John Crickett",
+        "email": "john@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "UA8B924FA",
+      "text": "Fantastic, we took the kids to the zoo. They loved it!",
+      "ts": "1735970406.626725",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "mary",
+        "real_name": "Mary Restivo",
+        "email": "mary@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "UA8B924FA",
+      "text": "although I wish they would re-open the reptile house again",
+      "ts": "1735970409.940087",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "mary",
+        "real_name": "Mary Restivo",
+        "email": "mary@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "UB9127BE5",
+      "text": "Oh, I didn't know it was closed?",
+      "ts": "1735970413.253450",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "john",
+        "real_name": "John Crickett",
+        "email": "john@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "UA8B924FA",
+      "text": "Yeah it has been under construction for about 3 months",
+      "ts": "1735970416.566812",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "mary",
+        "real_name": "Mary Restivo",
+        "email": "mary@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "U0AE3F48B",
+      "text": "Morning, sorry I'm late. @Mary, did the client have any updates in the weekly review call last Friday?",
+      "ts": "1735970419.880175",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "dawn",
+        "real_name": "Dawn Too",
+        "email": "dawn@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "UA8B924FA",
+      "text": "Hey! No worries. Jimmy asked for an enhancement, but I said we would add it to the backlog given how full the sprint already is.",
+      "ts": "1735970423.193537",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "mary",
+        "real_name": "Mary Restivo",
+        "email": "mary@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "U0AE3F48B",
+      "text": "What was the enhancement? Just curiuos if it is already related to something we are working on.",
+      "ts": "1735970426.506899",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "dawn",
+        "real_name": "Dawn Too",
+        "email": "dawn@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "UA8B924FA",
+      "text": "He asked if tasks could change color depending on how old they are. Like, if a task has been open for a few days, it slowly begin to fade.",
+      "ts": "1735970429.820262",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "mary",
+        "real_name": "Mary Restivo",
+        "email": "mary@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "UB9127BE5",
+      "text": "oh that sounds cool, i think trello offers it",
+      "ts": "1735970433.133624",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "john",
+        "real_name": "John Crickett",
+        "email": "john@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "U0AE3F48B",
+      "text": "ok thx. backlog sounds right for that",
+      "ts": "1735970436.446987",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "dawn",
+        "real_name": "Dawn Too",
+        "email": "dawn@example.com"
+      }
+    }
+  ],
+  "has_more": false,
+  "pin_count": 0,
+  "channel_actions_ts": null,
+  "channel_actions_count": 0
+}

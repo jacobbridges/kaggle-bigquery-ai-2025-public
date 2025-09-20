@@ -1,0 +1,87 @@
+WEBVTT
+
+NOTE
+Meeting: Todo App Design
+00:00:03.450 --> 00:00:08.880
+Dawn Too: Alright everyone, thanks for joining. The main goal for today is to nail down the core user experience for our new todo app.
+
+00:00:09.120 --> 00:00:11.540
+Dawn Too: Let's keep it super simple for V1.
+
+00:00:12.330 --> 00:00:17.150
+John Crickett: Sounds good to me. The simpler, the better for the initial build. So, what's the first interaction?
+
+00:00:17.550 --> 00:00:19.490
+John Crickett: Just adding a task, right?
+
+00:00:20.110 --> 00:00:26.810
+Mary Restivo: Exactly. I'm thinking a single, prominent input field at the top of the screen. You type, you hit 'Add' or 'Enter', and boom...
+
+00:00:27.010 --> 00:00:30.430
+Mary Restivo: it appears in the list with a smooth animation, maybe sliding in.
+
+00:00:31.050 --> 00:00:35.980
+Dawn Too: I like that. A smooth entry animation is a nice touch. John, any issues with a simple fade-in and slide-down animation?
+
+00:00:36.450 --> 00:00:42.110
+John Crickett: No, that's straightforward. We can use a simple CSS transition for that. Easy peasy.
+
+00:00:42.670 --> 00:00:45.990
+John Crickett: Okay, so the task is in the list. What's next? Marking it complete.
+
+00:00:46.540 --> 00:00:53.790
+Mary Restivo: This is the most satisfying part for the user. I think a simple checkbox on the left is classic and intuitive. When you check it...
+
+00:00:54.020 --> 00:00:58.330
+Mary Restivo: the text should get a strikethrough, and maybe the whole item fades slightly to de-emphasize it.
+
+00:00:58.910 --> 00:01:04.100
+Dawn Too: I agree, that visual feedback is key. Should the completed task stay in the main list, or should we move it?
+
+00:01:04.720 --> 01:06.880
+Mary Restivo: I feel like moving it might make the list jump around. Maybe it just stays put?
+
+00:01:07.430 --> 00:01:14.330
+John Crickett: From a technical side, leaving it in place is much simpler. Moving it to a separate list adds state management complexity.
+
+00:01:14.890 --> 00:01:19.780
+John Crickett: We could add a "Clear Completed" button somewhere to remove them all at once.
+
+00:01:20.310 --> 00:01:27.050
+Dawn Too: That's a great compromise. We keep the simplicity and still give users a way to clean up their list. I like it.
+
+00:01:27.690 --> 00:01:33.450
+Dawn Too: Okay, so to recap: a single input field to add, a checkbox to complete which triggers a strikethrough...
+
+00:01:33.710 --> 00:01:36.630
+Dawn Too: and a button to clear all completed tasks.
+
+00:01:37.000 --> 00:01:39.120
+Dawn Too: What about deleting a single task?
+
+00:01:39.750 --> 00:01:45.830
+Mary Restivo: A swipe-to-delete gesture feels very modern and clean on mobile. It avoids cluttering the UI with delete icons.
+
+00:01:46.400 --> 00:01:50.110
+John Crickett: Swipe-to-delete is good. For the web version, we can have an 'X' icon appear on hover.
+
+00:01:50.640 --> 00:01:55.800
+Dawn Too: Perfect. Let's hold off on editing tasks for now. Deleting and re-adding is simple enough for V1.
+
+00:01:56.230 --> 01:59.990
+John Crickett: Agreed. Adding an edit-in-place flow can wait for V2.
+
+00:02:00.450 --> 00:02:05.110
+Dawn Too: Excellent. I think we have a solid, simple user flow here. Mary, you can get started on the mockups.
+
+00:02:05.510 --> 00:02:08.010
+Dawn Too: John, you have a clear picture for the front-end logic.
+
+00:02:08.560 --> 00:02:11.430
+Mary Restivo: Sounds great. I'll have something for you both to look at by tomorrow.
+
+00:02:11.890 --> 00:02:12.750
+John Crickett: Ready when you are.
+
+00:02:13.210 --> 00:02:16.890
+Dawn Too: Alright team, great work. Let's wrap it up here. Thanks everyone.

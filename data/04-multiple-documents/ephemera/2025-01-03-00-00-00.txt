@@ -1,0 +1,57 @@
+WEBVTT
+
+NOTE
+Meeting: Todo App Architecture Discussion
+Date: January 3, 2025
+Participants: Jordan Rivera (UX Lead), Sam Okafor (Full-stack Developer)
+
+00:00:05.120 --> 00:00:08.440
+Jordan Rivera: Alright Sam, thanks for hopping on. I wanted to sync on the architecture before we start building.
+
+00:00:09.200 --> 00:00:12.880
+Sam Okafor: Yeah, good call. I've been thinking about this since we chatted yesterday about the mobile responsive stuff.
+
+00:00:13.600 --> 00:00:17.320
+Jordan Rivera: Right, so Maya wants PWA capabilities eventually. Does that change how we should structure things?
+
+00:00:18.080 --> 00:00:22.760
+Sam Okafor: It does, actually. If we're thinking PWA, I'd recommend we go with a proper REST API from the start instead of server-side rendering.
+
+00:00:23.520 --> 00:00:26.200
+Jordan Rivera: OK, so separate frontend and backend completely?
+
+00:00:26.960 --> 00:00:32.440
+Sam Okafor: Exactly. I'm thinking React for the frontend, Node.js with Express for the API. That way the PWA can just consume the same endpoints.
+
+00:00:33.200 --> 00:00:36.120
+Jordan Rivera: Makes sense. What about the database? We need user accounts now, right?
+
+00:00:36.880 --> 00:00:42.600
+Sam Okafor: Yeah, definitely. I was going to suggest PostgreSQL - it's solid, handles concurrent users well, and I know Aisha has worked with it before.
+
+00:00:43.360 --> 00:00:47.080
+Jordan Rivera: Good thinking. And for authentication? JWT tokens like we discussed?
+
+00:00:47.840 --> 00:00:53.200
+Sam Okafor: JWT for sure. Simple, stateless, works great with APIs. We can add social login later if people want it.
+
+00:00:54.000 --> 00:00:58.520
+Jordan Rivera: One thing though - the spec says tasks should persist across browser sessions. Are we doing client-side storage too?
+
+00:00:59.280 --> 00:01:04.840
+Sam Okafor: I'd avoid localStorage for the main data. Let's keep everything server-side for consistency. Maybe just cache auth tokens locally.
+
+00:01:05.600 --> 00:01:09.320
+Jordan Rivera: That works. What about deployment? Are we thinking cloud hosting?
+
+00:01:10.080 --> 00:01:15.720
+Sam Okafor: Yeah, probably start with something simple like Railway or Render. Easy deploys, handles the database, scales if we need it later.
+
+00:01:16.480 --> 00:01:20.200
+Jordan Rivera: Perfect. So to recap - React frontend, Express API, PostgreSQL database?
+
+00:01:20.960 --> 00:01:25.080
+Sam Okafor: Yep, and JWT auth. That gives us a solid foundation that can grow with whatever Maya throws at us next.
+
+00:01:25.840 --> 00:01:28.560
+Jordan Rivera: Ha, yeah she's full of ideas. Alright, this sounds like a plan.
