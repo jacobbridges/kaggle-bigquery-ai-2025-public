@@ -1,0 +1,117 @@
+{
+  "ok": true,
+  "messages": [
+    {
+      "type": "message",
+      "user": "U0AE3F48B",
+      "text": "Hey team, I'm working with the API docs and I think there's an error in the GET /api/todos documentation",
+      "ts": "1736143203.313362",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "dawn",
+        "real_name": "Dawn Too",
+        "email": "dawn@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "UB9127BE5",
+      "text": "What kind of error?",
+      "ts": "1736143206.626725",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "john",
+        "real_name": "John Crickett",
+        "email": "john@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "U0AE3F48B",
+      "text": "The example response shows a 'status' field with values like 'pending', but when I actually call the API, I'm getting a boolean 'complete' field instead",
+      "ts": "1736143209.940087",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "dawn",
+        "real_name": "Dawn Too",
+        "email": "dawn@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "UA8B924FA",
+      "text": "Oh yeah, you're absolutely right. We changed that during implementation but never updated the docs",
+      "ts": "1736143213.253450",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "mary",
+        "real_name": "Mary Restivo",
+        "email": "mary@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "UA8B924FA",
+      "text": "We decided the boolean 'complete' field was simpler than having multiple status values",
+      "ts": "1736143216.566812",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "mary",
+        "real_name": "Mary Restivo",
+        "email": "mary@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "UB9127BE5",
+      "text": "Makes sense. So it's just true/false for completed vs not completed?",
+      "ts": "1736143219.880175",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "john",
+        "real_name": "John Crickett",
+        "email": "john@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "UA8B924FA",
+      "text": "Exactly. We should update the docs to reflect that. Thanks for catching it @Dawn!",
+      "ts": "1736143223.193537",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "mary",
+        "real_name": "Mary Restivo",
+        "email": "mary@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "U0AE3F48B",
+      "text": "No problem! I'll make a note to fix the documentation. Should I create a ticket for it?",
+      "ts": "1736143226.506899",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "dawn",
+        "real_name": "Dawn Too",
+        "email": "dawn@example.com"
+      }
+    },
+    {
+      "type": "message",
+      "user": "UA8B924FA",
+      "text": "Yeah, that would be great. Just a quick fix to change 'status': 'pending' to 'complete': false in the examples",
+      "ts": "1736143229.820262",
+      "team": "T01234567",
+      "user_profile": {
+        "display_name": "mary",
+        "real_name": "Mary Restivo",
+        "email": "mary@example.com"
+      }
+    }
+  ],
+  "has_more": false,
+  "pin_count": 0,
+  "channel_actions_ts": null,
+  "channel_actions_count": 0
+}
