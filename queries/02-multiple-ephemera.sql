@@ -19,10 +19,10 @@
  * This type of processing requires a loop. We use the
  * GoogleSQL procedural language's FOR...IN loop.
  *
- * Just like in 01-poc.sql, pull the latest document and
- * the latest ephemera uploaded after the document. The
- * object tables for this example are loaded with the
- * following data files:
+ * Just like in 01-poc.sql, pull the latest document.
+ * Then, pull all ephemera uploaded after that document.
+ * The object tables for this example are loaded with
+ * the following data files:
  *
  * - Documents: https://github.com/jacobbridges/kaggle-bigquery-ai-2025-public/blob/main/data/02-multiple-ephemera/documents/
  * - Ephemera: https://github.com/jacobbridges/kaggle-bigquery-ai-2025-public/blob/main/data/02-multiple-ephemera/ephemera/

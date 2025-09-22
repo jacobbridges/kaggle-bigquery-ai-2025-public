@@ -26,11 +26,16 @@
  *
  * Each ephemera has a metadata key "ephemera_type"
  * which describes the type of content in the file.
- * Three ephemera types are used in this example:
+ * Four ephemera types are used in this example:
  *
- * 1. slack_json (slack conversation history)
- * 2. zoom_vtt   (Zoom meeting transcript)
- * 3. pr_summary (Github pr summary)
+ * 1. slack_json     (Slack conversation history)
+ * 2. zoom_vtt       (Zoom meeting transcript)
+ * 3. change_request (system change contract)
+ * 4. pr_summary     (Github pr summary)
+ *
+ * This example focuses on generating a new version
+ * of `documentation`. In production, this query
+ * would be parameterized.
  *
  */
 
