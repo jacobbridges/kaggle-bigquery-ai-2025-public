@@ -6,9 +6,9 @@
  * The Cloud Storage object tables used in this script
  * are mirrored in these Github directories:
  *
- * - 03_documents: https://github.com/jacobbridges/kaggle-bigquery-ai-2025-public/blob/main/data/04-multiple-documents/documents/
- * - 03_ephemera: https://github.com/jacobbridges/kaggle-bigquery-ai-2025-public/blob/main/data/04-multiple-documents/ephemera/
- * - 03_prompts: https://github.com/jacobbridges/kaggle-bigquery-ai-2025-public/blob/main/data/04-multiple-documents/prompts/
+ * - 04_documents: https://github.com/jacobbridges/kaggle-bigquery-ai-2025-public/blob/main/data/04-multiple-documents/documents/
+ * - 04_ephemera: https://github.com/jacobbridges/kaggle-bigquery-ai-2025-public/blob/main/data/04-multiple-documents/ephemera/
+ * - 04_prompts: https://github.com/jacobbridges/kaggle-bigquery-ai-2025-public/blob/main/data/04-multiple-documents/prompts/
  *
  * The documents now have a metadata key "document_type"
  * which describes the type of content in the file. Two
