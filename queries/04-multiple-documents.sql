@@ -1,6 +1,6 @@
 /**
  *
- * E04 - Showcase Multiple Document Types
+ * 04 - Showcase Multiple Document Types
  * ---
  *
  * The Cloud Storage object tables used in this script
