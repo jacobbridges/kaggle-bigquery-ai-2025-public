@@ -4,6 +4,12 @@ This repository contains the source code and data files for our submission to th
 
 For a detailed explanation of our submission, please refer to the full writeup here: [Auto-Updating Documentation with BigQuery AI](https://www.kaggle.com/competitions/bigquery-ai-hackathon/writeups/auto-updating-documentation).
 
+## Award
+
+**🏆 Best in Multimodal - Third Place 🏆**
+
+Announcement: [And that's a wrap! Congratulations to our Winners!](https://www.kaggle.com/competitions/bigquery-ai-hackathon/discussion/612730)
+
 ## Team
 
 This project was a collaborative effort by a team of two engineers:
