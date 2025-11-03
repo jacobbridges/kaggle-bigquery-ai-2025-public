@@ -1,6 +1,6 @@
 # Kaggle Submission: BigQuery AI - Building the Future of Data
 
-This repository contains the source code and data files for our submission to the Kaggle "[BigQuery AI - Building the Future of Data]([https://www.kaggle.com/competitions/bigquery-ai-hackathon/overview])" competition.
+This repository contains the source code and data files for our submission to the Kaggle "[BigQuery AI - Building the Future of Data](https://www.kaggle.com/competitions/bigquery-ai-hackathon/overview)" competition.
 
 For a detailed explanation of our submission, please refer to the full writeup here: [Auto-Updating Documentation with BigQuery AI](https://www.kaggle.com/competitions/bigquery-ai-hackathon/writeups/auto-updating-documentation).
 
